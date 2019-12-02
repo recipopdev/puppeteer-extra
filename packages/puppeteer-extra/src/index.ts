@@ -533,7 +533,7 @@ function requireVanillaPuppeteer(): [VanillaPuppeteer?, Error?] {
     // noop
   }
   try {
-    return [require('puppeteer'), undefined]
+    return [require('puppeteer-core'), undefined]
   } catch (err) {
     return [undefined, err]
   }

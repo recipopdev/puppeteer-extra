@@ -1,6 +1,6 @@
 import { PuppeteerExtraPlugin } from 'puppeteer-extra-plugin'
 
-import { Browser, Frame, Page } from 'puppeteer'
+import { Browser, Frame, Page } from 'puppeteer-core'
 
 import * as types from './types'
 

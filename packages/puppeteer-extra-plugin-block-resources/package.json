@@ -15,7 +15,7 @@
     "node": ">=8"
   },
   "keywords": [
-    "puppeteer",
+    "puppeteer-core",
     "puppeteer-extra",
     "puppeteer-extra-plugin",
     "block-resources",
@@ -26,7 +26,7 @@
   ],
   "devDependencies": {
     "ava": "2.4.0",
-    "puppeteer": "^2.0.0"
+    "puppeteer-core": "^1.2.0"
   },
   "dependencies": {
     "debug": "^4.1.1",

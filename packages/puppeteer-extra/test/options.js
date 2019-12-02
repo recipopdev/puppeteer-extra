@@ -61,7 +61,7 @@ test('will modify puppeteer connect options through plugins', async t => {
   let FINAL_OPTIONS = null
 
   // Launch vanilla puppeteer browser with no plugins
-  const puppeteerVanilla = require('puppeteer')
+  const puppeteerVanilla = require('puppeteer-core')
   const browserVanilla = await puppeteerVanilla.launch({
     args: PUPPETEER_ARGS
   })

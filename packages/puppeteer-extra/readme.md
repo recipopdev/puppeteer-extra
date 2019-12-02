@@ -100,7 +100,7 @@ puppeteer
  <summary><strong>Multiple puppeteers with different plugins</strong></summary><br/>
 
 ```js
-const vanillaPuppeteer = require("puppeteer")
+const vanillaPuppeteer = require("puppeteer-core")
 
 const { addExtra } = require("puppeteer-extra")
 const AnonymizeUA = require("puppeteer-extra-plugin-anonymize-ua")
@@ -170,7 +170,7 @@ puppeteer
 
 ```js
 const { Cluster } = require('puppeteer-cluster')
-const vanillaPuppeteer = require('puppeteer')
+const vanillaPuppeteer = require('puppeteer-core')
 
 const { addExtra } = require('puppeteer-extra')
 const Stealth = require('puppeteer-extra-plugin-stealth')
@@ -219,7 +219,7 @@ For using with TypeScript, just change your imports to:
 
 ```ts
 import { Cluster } from 'puppeteer-cluster'
-import vanillaPuppeteer from 'puppeteer'
+import vanillaPuppeteer from 'puppeteer-core'
 
 import { addExtra } from 'puppeteer-extra'
 import Stealth from 'puppeteer-extra-plugin-stealth'

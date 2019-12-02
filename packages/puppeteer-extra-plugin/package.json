@@ -40,7 +40,7 @@
     "singleQuote": true
   },
   "keywords": [
-    "puppeteer",
+    "puppeteer-core",
     "puppeteer-extra",
     "puppeteer-extra-plugin",
     "ua",
@@ -55,7 +55,7 @@
     "ava": "2.4.0",
     "documentation-markdown-themes": "^12.1.5",
     "lodash.camelcase": "^4.3.0",
-    "puppeteer": "^2.0.0",
+    "puppeteer-core": "^1.2.0",
     "rollup": "^1.27.5",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",

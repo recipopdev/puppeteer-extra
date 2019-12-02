@@ -6,11 +6,11 @@
 
 // This import statement is important for all this to work, otherwise we don't extend but replace the puppeteer module definition.
 // https://github.com/microsoft/TypeScript/issues/10859
-import {} from 'puppeteer'
+import {} from 'puppeteer-core'
 
 import { RecaptchaPluginPageAdditions } from './types'
 
-declare module 'puppeteer' {
+declare module 'puppeteer-core' {
   interface Page extends RecaptchaPluginPageAdditions {}
   interface Frame extends RecaptchaPluginPageAdditions {}
 }

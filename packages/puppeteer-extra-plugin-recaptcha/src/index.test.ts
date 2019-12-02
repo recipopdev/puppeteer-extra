@@ -11,7 +11,7 @@ const PUPPETEER_ARGS = ['--no-sandbox', '--disable-setuid-sandbox']
 
 test('will detect captchas', async t => {
   // const puppeteer = require('puppeteer-extra')
-  const puppeteer = addExtra(require('puppeteer'))
+  const puppeteer = addExtra(require('puppeteer-core'))
   const recaptchaPlugin = RecaptchaPlugin()
   puppeteer.use(recaptchaPlugin)
 

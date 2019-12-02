@@ -91,7 +91,7 @@ test('will bind connected browser events to plugins', async t => {
   const PLUGIN_EVENTS = []
 
   // Launch vanilla puppeteer browser with no plugins
-  const puppeteerVanilla = require('puppeteer')
+  const puppeteerVanilla = require('puppeteer-core')
   const browserVanilla = await puppeteerVanilla.launch({
     args: PUPPETEER_ARGS
   })

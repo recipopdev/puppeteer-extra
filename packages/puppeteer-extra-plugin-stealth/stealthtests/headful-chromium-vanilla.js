@@ -2,7 +2,7 @@ const path = require('path')
 const scriptName = path.basename(__filename)
 const screenshotPath = path.join(__dirname, '_results', `${scriptName}.png`)
 
-const puppeteer = require('puppeteer')
+const puppeteer = require('puppeteer-core')
 
 async function main() {
   console.log('start', scriptName)

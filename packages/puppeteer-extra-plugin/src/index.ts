@@ -1,5 +1,5 @@
 import debug, { Debugger } from 'debug'
-import * as Puppeteer from 'puppeteer'
+import * as Puppeteer from 'puppeteer-core'
 
 /** @private */
 const merge = require('merge-deep')

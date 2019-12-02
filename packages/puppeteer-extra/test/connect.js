@@ -16,7 +16,7 @@ test.beforeEach(t => {
 
 test('will remove headless from remote browser', async t => {
   // Launch vanilla puppeteer browser with no plugins
-  const puppeteerVanilla = require('puppeteer')
+  const puppeteerVanilla = require('puppeteer-core')
   const browserVanilla = await puppeteerVanilla.launch({
     args: PUPPETEER_ARGS
   })
